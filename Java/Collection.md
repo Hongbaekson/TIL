@@ -2,6 +2,10 @@
 
 ### 오늘은 Collection의 List에대해서 공부하였다.
 
+### 순서가 있는 목록 형 List
+
+### List 인터페이스는 Collection 인터페이스를 확장함
+
 ## ArrayList
 
 - 내부적으로 동적 배열(Dynamic Array)을 사용
