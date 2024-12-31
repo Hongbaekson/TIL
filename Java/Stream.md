@@ -13,3 +13,5 @@
 - 병렬 스트림은 내부적으로 Fork/Join Framework를 사용해 작업ㅇ르 분할하고 병렬로 실행
 
 - 기본적으로 CPU 코어 수에 따라 작업이 분할
+
+- ArrayList나 배열은 쉽게 분할되지만, LinkedList는 분할 비용이 높습니다.
