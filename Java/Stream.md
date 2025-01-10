@@ -15,3 +15,19 @@
 - 기본적으로 CPU 코어 수에 따라 작업이 분할
 
 - ArrayList나 배열은 쉽게 분할되지만, LinkedList는 분할 비용이 높습니다.
+
+## 자주 사용 하는 스트림 명령들
+
+### toMap
+
+- Java 8의 Stream API에서 제공하는 메서드로, 스트림의 요소를 Map으로 변환하기 위한 Collector를 생성하며이를 사용하면 스트림의 데이터를 원하는 방식으로 키와 값을 매핑하여 맵을 생성할 수 있다.
+
+- 동작 순서로는 스트림 생성 -> KeyMapper 호출 -> valueMapper 호출 -> 맵에 키-값 추가 (중복시 IllegalStateException) 발생 -> 최종적으로 생성된 Map<K, U> 반환.
+
+### 메서드 정의
+
+![alt text](image.png)
+
+### 예제
+
+![alt text](image.png)
