@@ -10,6 +10,10 @@
 
 - 많이 사용 되는 형태의 람다는 이미 구현되어 있어 인터페이스를 따로 선언할 필요가 없다.
 
+### @FunctionalInterface
+
+Functional Interface는 일반적으로 '구현해야 할 추상 메소드가 하나만 정의된 인터페이스'를 가리킵니다.
+
 ![alt text](image.png)
 
 # Optional 클래스
