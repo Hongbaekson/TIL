@@ -35,3 +35,5 @@
 ### groupingBy
 
 - Java 8의 Stream API에서 제공하는 Collector 중 하나로, 데이터를 특정 기준으로 그룹화하여 Map으로 반환. SQL의 GROUP BY와 비슷한 기능을 Java 스트림에서 구현할 수 있도록 도와준다.
+
+-
