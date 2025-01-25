@@ -34,7 +34,7 @@
 
 - 애플리케이션 시작 시 필요한 서비스와 리포지토리를 DI 컨테이너에 등록하여, 각 구성 요소에서 의존성을 주입받아 사용할 수 있게 합니다.
 
-## 동작 순서
+### 동작 순서
 
 1. 핸들러 조회: 핸들러 매핑을 통해 요청 URL에 매핑된 핸들러(컨트롤러)를 조회한다. (스프링은 URL 뿐만 아니라, 다른 여러가지 추가 정보(HTTP 헤더 정보 등)도 활용한다.)
 2. 핸들러 어댑터 조회: 핸들러를 실행할 수 있는 핸들러 어댑터를 조회한다.
@@ -63,3 +63,9 @@
   MyHttpRequestHandler 를 실행하면서 사용된(적용된) 객체는 다음과 같다.
   HandlerMapping = BeanNameUrlHandlerMapping
   HandlerAdapter = HttpRequestHandlerAdapter
+
+## 뷰 리졸버
+
+- 스프링 부트는 애플리케이션이 띄워질 때 여러가지를 자동으로 등록하는데, 그 중에서 InternalResourceViewResolver 라는 뷰 리졸버도 자동으로 등록해준다. 이때 application.properties 에 등록한 spring.mvc.view.prefix , spring.mvc.view.suffix 설정 정보를 사용해서 등록한다.
+
+![alt text](image.png)
