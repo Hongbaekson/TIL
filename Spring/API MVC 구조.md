@@ -69,3 +69,5 @@
 - 스프링 부트는 애플리케이션이 띄워질 때 여러가지를 자동으로 등록하는데, 그 중에서 InternalResourceViewResolver 라는 뷰 리졸버도 자동으로 등록해준다. 이때 application.properties 에 등록한 spring.mvc.view.prefix , spring.mvc.view.suffix 설정 정보를 사용해서 등록한다.
 
 ![alt text](image.png)
+
+![alt text](image.png)
