@@ -17,3 +17,7 @@
 
 -> HashMap의 구조는 List의 Array이며 이렇게 구조되어진 이유는 Random Access가 가능하기 때문의
 시간복잡도가 상수의 접근시간을 가지는것을 목표로 만들어 졌다. 해당 구조로 되었을때 문제는 Hash가 충돌하는 현상이 생기는데, 해당 충돌을 해결하기 위해 리스트 또는 트리를 통해 Array를 만든다.
+
+![alt text](image.png)
+
+![alt text](image-1.png)
